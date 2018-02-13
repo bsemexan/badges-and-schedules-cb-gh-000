@@ -9,7 +9,7 @@ end
 
 def assign_rooms(room)
   rooms[]
-  room.each_with_index {|rm, idx| rooms << "Hello #{rm}! You'll be assigned to room #{idx + 1}!"}
+  room.each_with_index.map {|rm, idx| rooms << "Hello #{rm}! You'll be assigned to room #{idx + 1}!"}
 end
 
 def printer(attendees)
