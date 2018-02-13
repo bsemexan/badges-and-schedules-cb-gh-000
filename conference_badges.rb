@@ -6,3 +6,9 @@ end
 def batch_badge_creator(names)
   names.each { |name| name }
 end
+
+def assign_rooms(room)
+end
+
+def printer
+end
